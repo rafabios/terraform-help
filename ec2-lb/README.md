@@ -22,15 +22,15 @@ export AWS_REGION=sa-east-1
 
 
 ```variables.tfvars
-aws_region = "sa-east-1"
-key_name = "teste"
-vpc_id = "vpc-xxxxxxxx"
-subnet_id = "sb-xxxxx,sb-xxxxx"
-instance_type = "t3a.xlarge"
-ebs_root_size = "20"
-ec2_ebs_volume_size = "150"
-server_names = ["WSO2-01", "WSO2-02", "WSO2-03", "WSO2-04"]
-environment  = "Staging"
+aws_region          = "sa-east-1"
+key_name            = "Develop-Key"
+vpc_id              = "vpc-xxxxxxxx"
+subnet_id           = "sb-xxxxx,sb-xxxxx"
+instance_type       = "t3a.micro"
+ebs_root_size       = "10"
+ec2_ebs_volume_size = "100"
+server_names        = ["web-01", "web-02", "web-03", "web-04"]
+environment         = "Develop"
 
 ```
 
